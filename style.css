@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f8ff;
+}
+
+.navbar {
+    background-color: #1a4b8c;
+    padding: 16px 5%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar h1 {
+    color: white;
+    display: inline-block;
+}
+
+.nav-links {
+    float: right;
+    margin-top: 8px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 32px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #8cb4ff;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.heading {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/heading.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.heading-content h2 {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.heading-content p {
+    font-size: 19px;
+    margin-bottom: 32px;
+}
+
+.buttonheading-button {
+    background-color: #1a4b8c;
+    color: white;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttonheading-button:hover {
+    background-color: #2d6ac7;
+}
+
+.destinations {
+    padding: 64px 5%;
+    text-align: center;
+}
+
+.destinations h3 {
+    color: #1a4b8c;
+    margin-bottom: 32px;
+    font-size: 29px;
+}
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+.destination-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    display: block;
+}
+
+.destination-card:hover {
+    transform: translateY(-5px);
+}
+
+.destination-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-content {
+    padding: 24px;
+}
+
+.card-content h4 {
+    color: #1a4b8c;
+    margin-bottom: 8px;
+}
+
+.card-content p {
+    color: #666;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #1a4b8c;
+    color: white;
+    text-align: center;
+    padding: 32px;
+    margin-top: 64px;
+}
